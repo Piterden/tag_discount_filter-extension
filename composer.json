@@ -1,6 +1,11 @@
 {
     "name": "anomaly/tag_discount_filter-extension",
     "type": "streams-addon",
+    "require": {
+        "anomaly/streams-platform": "1.1.*",
+        "anomaly/configuration-module": "2.1.*",
+        "anomaly/discounts-module": "latest"
+    },
     "autoload": {
         "psr-4": {
             "Anomaly\\TagDiscountFilterExtension\\": "src/"
